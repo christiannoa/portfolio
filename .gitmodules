@@ -1,3 +1,3 @@
 [submodule "christiannoa/portfolio"] 
   path = christiannoa/portfolio
-  url = git://github.com/christiannoa/portfolio.git
+  url = christiannoa.netlify.app
