@@ -11,9 +11,11 @@
   --ff-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #fff;
+  --clr-light: #ffffff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #FF0000;
+  --clr-accent2: #696969;
+  
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -72,7 +74,7 @@ strong {
   margin: 2em;
   padding: .5em 2em;
   background: var(--clr-accent);
-  color: var(--clr-dark);
+  color: var(--clr-light);
   text-decoration: none;
   cursor: pointer;
   font-size: .8rem;
@@ -125,6 +127,7 @@ h3 {
 .section__subtitle--intro,
 .section__subtitle--about {
   background: var(--clr-accent);
+  color: var(--clr-light);
   padding: .25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
@@ -146,6 +149,7 @@ header {
 
 .logo {
   max-width: 25px;
+  margin-left: 25px;
 }
 
 .nav {
@@ -416,7 +420,7 @@ header {
 
 .footer {
   background: #111;
-  color: var(--clr-accent);
+  color: var(--clr-light);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
@@ -441,6 +445,7 @@ header {
 }
 
 .social-list {
+  color: var(--clr-accent);
   list-style: none;
   display: flex;
   justify-content: center;
