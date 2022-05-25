@@ -1,3 +1,3 @@
-[submodule "portfolio"] 
-  path = Portfolio
+[submodule "christiannoa/portfolio"] 
+  path = christiannoa/Portfolio
   url = https://github.com/christiannoa/portfolio.git
